@@ -20,21 +20,22 @@ You can train the model by yourself, or you can download the pretrained model fo
 
 ## Folder
 car-classification
-  renas.py                %rename and resize dataset
 
-  resnet.py               %main file: including train and test
+---- renas.py                %rename and resize dataset
 
-  resnet_model_car2.h5    %pretrained model, can be used for test
+---- resnet.py               %main file: including train and test
 
-  acc.npy                 %test report(including precision, recall and f1-score)
+---- resnet_model_car2.h5    %pretrained model, can be used for test
+
+---- acc.npy                 %test report(including precision, recall and f1-score)
 
 ## Train and Test
 ```bash
 python resnet.py
 ```
 
-![train]
+![train]https://github.com/zq1335030905/car-classification/blob/main/train.png
 
-![test]
+![test]https://github.com/zq1335030905/car-classification/blob/main/test.png
 
 
