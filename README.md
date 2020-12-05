@@ -19,17 +19,19 @@ You can train the model by yourself, or you can download the pretrained model fo
 链接：https://pan.baidu.com/s/11yt_RhEYwe-8AqRrgINRyw  提取码：f40t
 
 ## Folder
----- renas.py                %rename and resize dataset
+car-classification
+  renas.py                %rename and resize dataset
 
----- resnet.py               %main file: including train and test
+  resnet.py               %main file: including train and test
 
----- resnet_model_car2.h5    %pretrained model, can be used for test
+  resnet_model_car2.h5    %pretrained model, can be used for test
 
----- acc.npy                 %test report(including precision, recall and f1-score)
+  acc.npy                 %test report(including precision, recall and f1-score)
 
 ## Train and Test
-```
+```bash
 python resnet.py
+```
 
 ![train]
 
